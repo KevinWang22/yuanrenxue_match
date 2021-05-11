@@ -1,0 +1,9 @@
+{
+  "name": "yuanrenxue",
+  "version": "1.0.0",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "crypto-js": "^4.0.0",
+    "express": "^3.21.2"
+  }
+}
