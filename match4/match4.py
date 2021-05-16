@@ -82,7 +82,7 @@ def img_to_num(td, none_display_key):
 
     imgs = re.findall('(<img.*?>)', td)
     imgs = [img for img in imgs if 'img_number ' + none_display_key not in img]
-
+    # print(imgs[0])
     num_list = []
     for img in imgs:
         # print(img)
