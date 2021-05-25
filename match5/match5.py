@@ -10,7 +10,6 @@ import requests
 
 
 def get_answer(page_num=1):
-    ans = 0
     hot_list = []
     for page in range(1, page_num+1):
         m = int(time.time() * 1000)

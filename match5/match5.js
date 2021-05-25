@@ -158,8 +158,7 @@ function _0x474032(_0x233f82, _0xe2ed33, _0x3229f9) {
 
 function get_m(ori_m) {
 
-    var enc_m = _0x474032(ori_m);
-    return enc_m;
+    return _0x474032(ori_m);
 }
 
 function get_RM4hZBv0dDon443M(ori_m, b64_m) {
@@ -168,13 +167,12 @@ function get_RM4hZBv0dDon443M(ori_m, b64_m) {
     _$pr.push(enc_m);
     var _$Ww = CryptoJS["enc"]["Utf8"]["parse"](_$pr.toString());
     var _$qF = CryptoJS['enc']['Utf8']['parse'](b64_m['slice'](0, 16));
-
+    
     var _0x29dd83 = CryptoJS['AES']["encrypt"](_$Ww, _$qF, {
         'mode': CryptoJS["mode"]['ECB'],
         'padding': CryptoJS['pad']['Pkcs7']
     });
 
-    var RM4hZBv0dDon443M = _0x29dd83.toString();
+    return _0x29dd83.toString();
 
-    return RM4hZBv0dDon443M;
 }
